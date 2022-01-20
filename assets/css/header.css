@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.divHeader{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .topo{
+   width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+
+}
+header img{
+    width: 5rem;
+    border-radius: 50%;
+    
+}
+header .topo .icon{
+   font-size: 2rem;
+   color: var(--cor1);
+   
+ }
+ header .bottom{
+     display: flex;
+     justify-content: end;
+ }
+ .redes{
+    display: flex;
+    justify-content: center;
+ }
+ .redes .icon{
+    font-size: 2rem;
+    color: var(--cor1);
+    background-color: #fff;
+    padding: .2rem;
+    border-radius: 1rem ;
+    margin: .5rem;
+ }

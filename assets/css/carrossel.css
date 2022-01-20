@@ -1,0 +1,37 @@
+.carrossel{
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+.carrossel .banners{
+    width: 100%;
+}
+.carrossel .banners img{
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+
+    .carrossel{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        
+        
+    }
+    
+    .carrossel .banners{
+        width: 100%;
+        max-width: 900px;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+}
+.obrigado{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+}
